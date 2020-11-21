@@ -24,6 +24,15 @@ h3 {
     margin-bottom: 10px;
 }
 
+
+.game-intro-title {
+    font-size: 72px;
+}
+
+.game-intro-subtitle {
+    font-size: 34px;
+}
+
 .flex-container {
     display: flex;
     flex-direction: column;

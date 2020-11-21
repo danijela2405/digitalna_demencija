@@ -23,7 +23,7 @@ function sleep(ms) {
 }
 
 async function gameRound() {
-
+    await sleep(200);
     document.getElementById("answer").style.visibility = "hidden";
     var imgNumber = Math.floor(Math.random() * 5) + 1;
 

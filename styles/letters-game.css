@@ -11,13 +11,36 @@
     flex-direction: column;
 }
 
+.column-small {
+    width: 20%;
+    height: 100%;
+}
+
+.column-big {
+    width: 60%;
+    height: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
 .letters {
     background-color: black;
     font-size: 200px;
-    width: 474px;
+    width: 600px;
     height: 400px;
     display: flex;
     align-items: center;
     justify-content: center;
     color: white;
+}
+
+
+.countdown {
+    font-size: 150px;
+    width: 474px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
