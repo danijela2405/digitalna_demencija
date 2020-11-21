@@ -1,0 +1,23 @@
+.column {
+    width: 30%;
+    height: 100%;
+}
+
+.column-middle {
+    width: 40%;
+    height: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.letters {
+    background-color: black;
+    font-size: 200px;
+    width: 474px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}

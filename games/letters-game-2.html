@@ -1,0 +1,47 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css"
+          type="text/css">
+    <link rel="stylesheet" href="../styles/style.css" type="text/css">
+    <link rel="stylesheet" href="../styles/letters-game.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="../scripts/letters-game-2.js"></script>
+</head>
+<body class="blue">
+
+
+<div class="flex-container-row">
+    <div class="column"></div>
+    <div class="column-middle">
+        <h3 class="game-title">Slova</h3>
+        <h6 class="game-subtitle">Ako je trenutno slovo jednako slovu koje se nalazilo dva mjesta prije njega odaberi DA, inače NE</h6>
+
+        <div id="letter" class="letters">
+
+        </div>
+
+        <div id="answer" class="flex-container-buttons">
+            <div class="game-link" data-id="1">
+                <span>da</span>
+            </div>
+
+            <div class="button-divider"></div>
+
+            <div class="game-link" data-id="0">
+                <span>ne</span>
+            </div>
+        </div>
+    </div>
+    <div class="column"></div>
+</div>
+
+</body>
+</html>
